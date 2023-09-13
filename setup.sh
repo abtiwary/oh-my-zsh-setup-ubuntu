@@ -26,7 +26,7 @@ cp .p10k.zsh ${home_dir}
 mkdir ${home_dir}/.fonts
 unzip -d Hack Hack.zip
 cp Hack/*.ttf ${home_dir}/.fonts
-sudo fc-cache -fv
+fc-cache -fv
 rm -rf Hack
 
 source ${home_dir}/.zshrc
