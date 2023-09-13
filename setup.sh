@@ -11,7 +11,7 @@ else
     echo "using ${home_dir} (default) as the home directory"
 fi
 
-sudo install -y zsh
+sudo apt install -y zsh fzf
 chsh -s $(which zsh)
 
 tar -xvzf d_powerlevel10k.tar.gz 
